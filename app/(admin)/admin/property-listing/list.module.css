@@ -1,0 +1,17 @@
+.container input {
+    border: 1px solid red;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 40px;
+}
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 100px;
+}

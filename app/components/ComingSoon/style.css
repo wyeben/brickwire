@@ -1,0 +1,60 @@
+
+.page {
+  max-width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.overlay {
+  background: hsla(0, 0%, 0%, 0.3);
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+}
+
+.page__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.page h3 {
+  font-weight: 300;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+
+
+.page h1 {
+    font-size: 4rem;
+  }
+  .page h3 {
+    max-width: 600px;
+  }
+
+/* screens bigger than 900px */
+@media (max-width: 500px) {
+  .page h3 {
+    max-width: 600px;
+    margin: 20px;
+    margin-bottom: 120px;
+  }
+  .page h1 {
+    font-size: 40px;
+  }
+}
