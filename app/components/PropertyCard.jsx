@@ -7,7 +7,7 @@ import progress_bar from '../../public/Home-assets/progress-bar.png';
 import Image from 'next/image';
 
 export default function PropertyCard() {
-  
+
   return (
     <div className="w-full md:w-[390px] rounded-2xl overflow-hidden shadow-xl md:mr-10 mb-10 md:mb-0">
       <div className="w-full mb-3 h-[220px]">
