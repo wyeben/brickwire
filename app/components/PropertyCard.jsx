@@ -59,7 +59,6 @@ export default function PropertyCard() {
           <div>
             <Image
               src={progress_bar}
-
               alt="line img"
               width={100}
               height={100}
